@@ -1,0 +1,191 @@
+{
+    "id": 0,
+    "attribute": "Gender",
+    "is_categorical": true,
+    "value": [
+        "female"
+    ],
+    "children": [
+        {
+            "id": 14,
+            "attribute": "Class",
+            "is_categorical": false,
+            "value": 1.3525,
+            "children": [
+                {
+                    "id": 22,
+                    "attribute": "Fare",
+                    "is_categorical": false,
+                    "value": 34.0568,
+                    "children": [
+                        {
+                            "id": 26,
+                            "attribute": "Port of Embarkation",
+                            "is_categorical": true,
+                            "value": [
+                                "Southampton"
+                            ],
+                            "children": [
+                                {
+                                    "id": 28,
+                                    "survival": 9,
+                                    "not_survival": 0
+                                },
+                                {
+                                    "id": 27,
+                                    "survival": 6,
+                                    "not_survival": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 23,
+                            "attribute": "Fare",
+                            "is_categorical": false,
+                            "value": 135.0008,
+                            "children": [
+                                {
+                                    "id": 25,
+                                    "survival": 88,
+                                    "not_survival": 0
+                                },
+                                {
+                                    "id": 24,
+                                    "survival": 36,
+                                    "not_survival": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "attribute": "Class",
+                    "is_categorical": false,
+                    "value": 2.2462,
+                    "children": [
+                        {
+                            "id": 19,
+                            "attribute": "Parents / Children aboard",
+                            "is_categorical": false,
+                            "value": 1.952,
+                            "children": [
+                                {
+                                    "id": 21,
+                                    "survival": 73,
+                                    "not_survival": 12
+                                },
+                                {
+                                    "id": 20,
+                                    "survival": 21,
+                                    "not_survival": 0
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "attribute": "Fare",
+                            "is_categorical": false,
+                            "value": 20.2629,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "survival": 94,
+                                    "not_survival": 77
+                                },
+                                {
+                                    "id": 17,
+                                    "survival": 12,
+                                    "not_survival": 33
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "attribute": "Class",
+            "is_categorical": false,
+            "value": 1.9775,
+            "children": [
+                {
+                    "id": 9,
+                    "attribute": "Fare",
+                    "is_categorical": false,
+                    "value": 339.7015,
+                    "children": [
+                        {
+                            "id": 11,
+                            "attribute": "Fare",
+                            "is_categorical": false,
+                            "value": 205.3479,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "survival": 58,
+                                    "not_survival": 107
+                                },
+                                {
+                                    "id": 12,
+                                    "survival": 1,
+                                    "not_survival": 11
+                                }
+                            ]
+                        },
+                        {
+                            "id": 10,
+                            "survival": 2,
+                            "not_survival": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "attribute": "Parents / Children aboard",
+                    "is_categorical": false,
+                    "value": 0.1674,
+                    "children": [
+                        {
+                            "id": 6,
+                            "attribute": "Age",
+                            "is_categorical": false,
+                            "value": 38.8061,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "survival": 66,
+                                    "not_survival": 425
+                                },
+                                {
+                                    "id": 7,
+                                    "survival": 5,
+                                    "not_survival": 68
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "attribute": "Age",
+                            "is_categorical": false,
+                            "value": 6.9621,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "survival": 19,
+                                    "not_survival": 22
+                                },
+                                {
+                                    "id": 4,
+                                    "survival": 10,
+                                    "not_survival": 49
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
